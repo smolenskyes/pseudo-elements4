@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/logogo.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    background-position: right top;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #C08D5D;
+    display: inline-block;
+    padding-top: 43px;
+    padding-bottom: 42.5px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 70px;
+    background-position: bottom left;
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 54px;
+}
+
+span {
+    display: block;
+    text-transform: none;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+span::after {
+    margin-left: 8px;
+    width: 45px;
+    height: 66px;
+    vertical-align: middle;
+    display: inline-block;
+    content: "";
+    background-image: url(../img/Logo.svg);
+    background-repeat: no-repeat;
+}
+
+p {
+    margin-bottom: 72px;
+    margin-top: 26px;
+    min-width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bottom {
+    border: solid 2px rgb(192, 141, 93);
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 15px;
+    line-height: 60px;
+    margin-bottom: 63px;
+    color: rgb(63, 64, 66);
+    background-color: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.bottom:after {
+    display: inline-block;
+    background-color: rgb(192, 141, 93);
+    text-align: center;
+    margin-left: 25px;
+    width: 59px;
+    height: 64px;
+    content: url(../img/bottom.svg);
+    color: white;
+}
+
+.mouse {
+    display: block;
+    text-align: center;
+    vertical-align: bottom;
+}
