@@ -5,10 +5,11 @@
 }
 
 body {
-    background-image: url(../img/logogo.jpg);
-    background-color: white;
+
+    background-color: rgb(229, 229, 229);
+    background-image: url(../img/logomain.png);
+    height: 100vh;
     background-repeat: no-repeat;
-    min-width: 100vh;
     background-position: right top;
 }
 
@@ -35,6 +36,7 @@ nav {
 }
 
 nav li {
+    margin-left: 52px;
     display: inline-block;
     list-style: none;
 }
@@ -50,6 +52,10 @@ nav a {
 
 }
 
+.active{
+    color: rgb(192, 141, 93);
+}
+
 h1 {
     text-transform: uppercase;
     font-family: 'Yeseva One';
@@ -59,6 +65,7 @@ h1 {
     background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
     padding-bottom: 54px;
+    padding-top: 123px;
 }
 
 span {
@@ -82,7 +89,7 @@ span::after {
 p {
     margin-bottom: 72px;
     margin-top: 26px;
-    min-width: 50%;
+    max-width: 50%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
